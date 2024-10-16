@@ -1,0 +1,17 @@
+[
+    {
+        "message": "Keep going, you're doing great!",
+        "path": "/encouragement/keep-going",
+        "header": "Motivation"
+    },
+    {
+        "message": "Believe in yourself!",
+        "path": "/encouragement/believe",
+        "header": "Inspiration"
+    },
+    {
+        "message": "You can achieve anything you set your mind to.",
+        "path": "/encouragement/achieve",
+        "header": "Encouragement"
+    }
+]
