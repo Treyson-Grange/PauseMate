@@ -1,9 +1,9 @@
 [
   {
     "message": "Drink more water!",
-    "path": "assets/images/reset.png",
+    "path": "assets/images/water.png",
     "header": "You're parched. Drink up!",
-    "interval": 1
+    "interval": 5
   },
   {
     "message": "Eat a snack!",

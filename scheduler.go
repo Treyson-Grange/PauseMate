@@ -35,6 +35,6 @@ func ConcurentSystem(notifications []Notification) {
 	<-sigChan
 
 	cancel()
-	time.Sleep(1 * time.Second) // let everything finish
+	time.Sleep(1 * time.Second)
 	fmt.Println("Program exiting.")
 }

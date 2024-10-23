@@ -34,7 +34,7 @@ func sendNotification(title, message, iconPath string) {
 	call := obj.Call("org.freedesktop.Notifications.Notify", 0,
 		"PauseMate",
 		uint32(0),
-		iconPath,
+		"",
 		title,
 		message,
 		[]string{},

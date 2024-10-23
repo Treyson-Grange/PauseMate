@@ -38,7 +38,6 @@ func CreateNotification(path bool) {
 		Interval: interval,
 		Path:     "assets/images/default.png",
 	}
-	fmt.Println(notification)
 
 	WriteNotificationJSON("config/notifications.json", notification)
 }

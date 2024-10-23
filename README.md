@@ -29,5 +29,4 @@ Pause mate is a CLI that users will throw on in the background, and recieve push
 - [ ] UI
 - [ ] Test files
 - [ ] Heres an idea. On start, it has you rate your day so far, and based on these numbers, we change stuff. IDK specififcs but keep it in
-
-- [ ] New notifying system doesn;t work with images.
+- [ ] New notifying system doesn;t work with images :(

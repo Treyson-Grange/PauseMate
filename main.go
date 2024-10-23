@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"os"
 )
 
@@ -15,17 +14,9 @@ func main() {
 		}
 	} else {
 		notifications := ReadNotificationJSON("config/notifications.json")
-		fmt.Println(notifications)
-		// Start the notifications
+
 		ConcurentSystem(notifications)
 	}
 }
-
-// ᓚᘏᗢ
-
-// Remember treyson,
-// Keep main.go clean and simple.
-// Compartmentalize your code into different files.
-// Keep users in mind when designing your CLI.
 
 // ᓚᘏᗢ
