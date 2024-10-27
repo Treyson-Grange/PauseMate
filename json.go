@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"io"
-	"io/ioutil"
 	"log"
 	"os"
 )
@@ -59,7 +58,7 @@ func WriteNotificationJSON(filePath string, notif Notification) bool {
 	}
 
 	// Write it again
-	if err := ioutil.WriteFile(filePath, updatedData, 0644); err != nil {
+	if err := os.WriteFile(filePath, updatedData, 0644); err != nil {
 		log.Fatal("failed to write to file: %w", err)
 		return false
 	}

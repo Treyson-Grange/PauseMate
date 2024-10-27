@@ -3,54 +3,54 @@
     "message": "Drink more water!",
     "path": "assets/images/water.png",
     "header": "You're parched. Drink up!",
-    "interval": 5
+    "interval": 900
   },
   {
     "message": "Eat a snack!",
     "path": "/notification/snack",
     "header": "Hungry?",
-    "interval": 100
+    "interval": 2700
   },
   {
     "message": "Take a few seconds to stretch out!",
     "path": "/notification/default",
     "header": "Stretch!",
-    "interval": 100
-  },
-  {
-    "message": "Keep going, you're doing great!",
-    "path": "/encouragement/keep-going",
-    "header": "Hey you!",
-    "interval": 100
-  },
-  {
-    "message": "Believe in yourself!",
-    "path": "/encouragement/believe",
-    "header": "Inspiration",
-    "interval": 100
-  },
-  {
-    "message": "You can achieve anything you set your mind to.",
-    "path": "/encouragement/achieve",
-    "header": "Encouragement",
-    "interval": 100
+    "interval": 3600
   },
   {
     "message": "You're desk! Clean it!",
     "path": "/notification/desk",
     "header": "Tidy up!",
-    "interval": 100
+    "interval": 7200
   },
   {
     "message": "get out ur chair! fill ur water! make sure youre comfortable!",
     "path": "assets/images/default.png",
-    "header": "this is input",
-    "interval": 100
+    "header": "Reset!",
+    "interval": 10800
   },
   {
     "message": "Get up for five minutes! Refill your water, use the restroom, do what you need!",
     "path": "assets/images/default.png",
     "header": "Reset!",
-    "interval": 180
+    "interval": 14400
+  },
+  {
+    "message": "Keep going, you're doing great!",
+    "path": "/encouragement/keep-going",
+    "header": "Hey you!",
+    "interval": 12600
+  },
+  {
+    "message": "Believe in yourself!",
+    "path": "/encouragement/believe",
+    "header": "Hey you!",
+    "interval": 10800
+  },
+  {
+    "message": "You can achieve anything you set your mind to.",
+    "path": "/encouragement/achieve",
+    "header": "Hey you!",
+    "interval": 10000
   }
 ]

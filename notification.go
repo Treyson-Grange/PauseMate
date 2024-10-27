@@ -16,14 +16,16 @@ func notify(ctx context.Context, notification Notification) {
 	for {
 		select {
 		case <-ticker.C:
-			sendNotification(notification.Header, notification.Message, notification.Path)
+			sendNotification(notification.Header, notification.Message)
 		case <-ctx.Done():
 			return
 		}
 	}
 }
 
-func sendNotification(title, message, iconPath string) {
+func sendNotification(title, message string) {
+	playMP3("assets/sounds/chime.mp3")
+
 	conn, err := dbus.SessionBus()
 	if err != nil {
 		log.Println("Failed to connect to session bus:", err)
